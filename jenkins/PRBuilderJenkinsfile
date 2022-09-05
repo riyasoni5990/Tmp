@@ -1,0 +1,22 @@
+#!/usr/bin/env groovy
+pipeline {
+  agent any
+
+  stages {
+    stage("Style Check") {
+      steps {
+        sh 'echo Running Style Check'
+      }
+    }
+    stage("Module Integration Tests") {
+      steps {
+        sh 'echo We will separate Unit/Module IT/Component Tests later'
+      }
+    }
+    stage("Component Tests") {
+      steps {
+        sh 'echo We have not written any yet'
+      }
+    }
+  }
+}
