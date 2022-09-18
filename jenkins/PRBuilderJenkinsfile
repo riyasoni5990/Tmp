@@ -10,7 +10,7 @@ pipeline {
     }
     stage("Module Integration Tests") {
       steps {
-        sh 'echo We will separate Unit/Module IT/Component Tests later'
+        sh 'echo Running Unit/Module IT/Component Tests later'
       }
     }
     stage("Component Tests") {
